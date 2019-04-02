@@ -2,7 +2,7 @@
   "name": "react-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage":"/static/react",
+  "homepage": "/static/react",
   "dependencies": {
     "@babel/core": "7.2.2",
     "@svgr/webpack": "4.1.0",
@@ -14,6 +14,7 @@
     "babel-preset-react-app": "^7.0.1",
     "bfj": "6.1.1",
     "case-sensitive-paths-webpack-plugin": "2.2.0",
+    "components": "^0.1.0",
     "css-loader": "1.0.0",
     "dotenv": "6.0.0",
     "dotenv-expand": "4.2.0",
@@ -47,6 +48,8 @@
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.1",
+    "styled": "^1.0.0",
+    "styled-components": "^4.2.0",
     "terser-webpack-plugin": "1.2.2",
     "url-loader": "1.1.2",
     "webpack": "4.28.3",
@@ -118,5 +121,5 @@
       "react-app"
     ]
   },
-  "proxy": "http://210.89.188.137:5000"
+  "proxy": "http://127.0.0.1:5000"
 }

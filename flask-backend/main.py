@@ -1,6 +1,6 @@
 import flask
 from flask import Flask, render_template, request, jsonify
-from flask_restful import reqparse, abort, Api, Resource
+#from flask_restful import reqparse, abort, Api, Resource
 import pymysql
 from datetime import datetime
 import pandas as pd
@@ -8,7 +8,7 @@ import json
 import time
 
 app = Flask(__name__)
-api = Api(app)
+#api = Api(app)
 
 @app.route("/")
 def my_index():

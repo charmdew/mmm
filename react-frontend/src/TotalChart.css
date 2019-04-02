@@ -1,9 +1,9 @@
-.album_cover {
+/*.album_cover {
     background-image: url(./photos/album_chungA.png), 
     url(./photos/IU.png), 
     url(./photos/bigbang.jpg), 
     url(./photos/윤딴딴.jpg);
-    /*background-size: 1px 1px;*/
+    /*background-size: 1px 1px;
     width: 100px;
     height: 100px;
 
